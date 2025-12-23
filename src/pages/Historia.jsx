@@ -56,7 +56,7 @@ const Historia = () => {
             {/* --- 1. HERO SECTION --- */}
             <section
                 className="relative h-[500px] flex items-center justify-center bg-cover bg-center bg-fixed"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1533038590840-1cde6e668a91?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')" }}
+                style={{ backgroundImage: "url('img/historia/acnp-historia.jpg')" }}
             >
                 <div className="absolute inset-0 bg-green-900/85"></div>
                 <div className="relative z-10 text-center px-4 max-w-4xl mx-auto text-white">

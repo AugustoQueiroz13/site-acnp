@@ -243,7 +243,10 @@ const Home = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Gratidão à Comunidade</h2>
                             <div className="space-y-4 text-gray-600 leading-relaxed">
                                 <p>
-                                    A expressão da nossa gratidão é o alicerce do nosso trabalho. À nossa comunidade dedicada, parceiros engajados, voluntários incansáveis e a todos que contribuíram para a nossa jornada.
+                                    A expressão da nossa gratidão é o alicerce do nosso trabalho. À nossa comunidade dedicada, parceiros engajados, voluntários incansáveis e a todos que contribuíram para a nossa jornada,estendemos nosso mais profundo agradecimento.
+                                </p>
+                                <p>
+                                    Cada passo que damos é impulsionado pelo apoio e colaboração de indivíduos apaixonados pela cultura e pelo desenvolvimento de Guapimirim.
                                 </p>
                                 <p className="font-medium text-green-800">
                                     Com vocês, construímos um legado cultural que inspira, educa e transforma.
