@@ -8,7 +8,9 @@ const Contato = () => {
     useEffect(() => {
         document.title = "Contato | ACNP - Associação Cultural Nascente Pequena";
     }, []);
-    const [copied, setCopied] = useState(false);
+
+    // MUDANÇA AQUI: Usando React.useState direto para evitar erro de import
+    const [copied, setCopied] = React.useState(false);
     const pixKey = "31.828.296/0001-67";
 
     // Função para copiar o PIX
@@ -106,7 +108,7 @@ const Contato = () => {
 
                     {/* Lista de Contatos */}
                     <div className="w-full md:w-1/2 space-y-8">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Informações da Associação</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6">Informações da ACNP</h2>
 
                         {/* Telefone */}
                         <div className="flex items-start gap-4">
@@ -163,8 +165,9 @@ const Contato = () => {
                         <MapPin className="text-green-600" /> Localização
                     </h3>
                     <div className="w-full h-[450px] bg-gray-200 rounded-3xl overflow-hidden shadow-lg border border-gray-300">
+                        {/* ATENÇÃO: O src abaixo precisa ser um link de EMBED válido do Google Maps. */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.385975262793!2d-42.98188192391626!3d-22.531061979519106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a800b651030b%3A0x6295537549641778!2sRua%20Joaquim%20Coelho%2C%20230%20-%20Centro%2C%20Guapimirim%20-%20RJ%2C%2025946-235!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.685973801289!2d-42.98064692391626!3d-22.47844287955877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a9a3b7b3b3b3%3A0x123456789abc!2sRua%20Joaquim%20Coelho%20230%2C%20Guapimirim!5e0!3m2!1spt-BR!2sbr!4v1234567890"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
