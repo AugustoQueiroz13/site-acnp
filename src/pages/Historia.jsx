@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import {
-    Calendar, Award, Star, ArrowRight, User, Heart, Leaf,
+    Calendar, Award, Star, User, Heart, Leaf,
     FileText, TrendingUp, Building, HeartHandshake, Palette,
     BookOpen, Sprout, Lightbulb, Megaphone, ShieldCheck
 } from 'lucide-react';
@@ -98,7 +97,7 @@ const Historia = () => {
                 </div>
             </section>
 
-            {/* --- 3. LINHA DO TEMPO (TEXTOS E ÍCONES MISTURADOS) --- */}
+            {/* --- 3. LINHA DO TEMPO --- */}
             <section className="py-20 bg-green-50 relative overflow-hidden">
                 {/* Linha vertical */}
                 <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-green-200 transform md:-translate-x-1/2"></div>
@@ -111,7 +110,7 @@ const Historia = () => {
                             <h3 className="text-2xl font-bold text-green-800">Início da Jornada</h3>
                             <span className="inline-block mt-1 px-3 py-1 bg-white border border-green-200 text-green-700 text-sm font-bold rounded-full shadow-sm">1987 - 1995</span>
                             <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-                                Nascida em 1987, a ACNP teve sua raiz na determinação de um grupo visionário. Nos primeiros anos, enfrentamos desafios e superamos obstáculos para realizar um trabalho dedicado ao desenvolvimento sociocultural de Guapimirim
+                                Nascida em 1987, a ACNP teve sua raiz na determinação de um grupo visionário. Nos primeiros anos, enfrentamos desafios e superamos obstáculos para realizar um trabalho dedicado ao desenvolvimento sociocultural de Guapimirim.
                             </p>
                         </div>
 
@@ -132,7 +131,7 @@ const Historia = () => {
                         </div>
                     </div>
 
-                    {/* ITEM 2: 1996-2010 */}
+                    {/* ITEM 2: 1996-2010 (COM A LEI 452/2003 ADICIONADA) */}
                     <div className="relative flex flex-col md:flex-row items-center justify-between group">
                         <div className="w-full md:w-5/12 text-right pr-12 md:pr-12 md:order-1 order-2">
                             <div className="bg-white p-5 rounded-2xl shadow-md border-r-4 border-green-500">
@@ -141,9 +140,24 @@ const Historia = () => {
                                     alt="Expansão ACNP"
                                     className="w-full h-48 object-cover rounded-xl mb-4"
                                 />
-                                <p className="text-gray-600 text-sm leading-relaxed text-left">
+                                <p className="text-gray-600 text-sm leading-relaxed text-left mb-4">
                                     Ao longo dos anos, expandimos nossos horizontes. Cursos, oficinas e projetos como <strong>“Guapimirim em Foco”</strong> e <strong>“Maquinetando”</strong> ganharam destaque, atendendo crianças, adolescentes e adultos.
                                 </p>
+
+                                {/* --- INSERÇÃO DO RECONHECIMENTO PÚBLICO (2003) --- */}
+                                <div className="mt-4 pt-4 border-t border-gray-100 flex items-start gap-3 text-left">
+                                    <div className="p-2 bg-green-100 rounded-lg shrink-0">
+                                        <Award size={20} className="text-green-700" />
+                                    </div>
+                                    <div>
+                                        <h5 className="font-bold text-green-800 text-sm">Marco Histórico (2003)</h5>
+                                        <p className="text-xs text-gray-600 mt-1">
+                                            Reconhecimento com Título de Utilidade Pública Municipal pela <strong>Lei 452/2003</strong> de Guapimirim/RJ.
+                                        </p>
+                                    </div>
+                                </div>
+                                {/* --- FIM DA INSERÇÃO --- */}
+
                             </div>
                         </div>
 
@@ -160,7 +174,7 @@ const Historia = () => {
                         </div>
                     </div>
 
-                    {/* ITEM 3: 2011-2022 (ICONES DE VOLTA AQUI!) */}
+                    {/* ITEM 3: 2011-2022 */}
                     <div className="relative flex flex-col md:flex-row items-center justify-between group">
                         <div className="hidden md:block w-5/12 text-right pr-12">
                             <h3 className="text-2xl font-bold text-green-800">Resiliência e Inovação</h3>
@@ -183,7 +197,6 @@ const Historia = () => {
                                 </p>
                             </div>
 
-                            {/* Card com as Medalhas (Icons) */}
                             <div className="bg-white p-6 rounded-2xl shadow-md border-l-4 border-green-600">
                                 <h4 className="text-green-800 font-bold mb-3 text-sm uppercase tracking-wider">Marcos Importantes:</h4>
                                 <ul className="space-y-3 text-sm text-gray-600">
