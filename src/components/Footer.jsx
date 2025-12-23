@@ -33,7 +33,7 @@ const Footer = () => {
                         {/* Logo no Rodapé */}
                         <div className="mb-6 inline-block bg-white/90 p-3 rounded-xl">
                             <img
-                                src="/img/logo.png"
+                                src="img/logo.png"
                                 alt="Logo ACNP"
                                 className="h-16 w-auto object-contain"
                             />

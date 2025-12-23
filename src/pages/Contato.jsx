@@ -24,7 +24,7 @@ const Contato = () => {
             {/* --- 1. HERO SECTION --- */}
             <section
                 className="relative h-[400px] flex items-center justify-center bg-cover bg-center"
-                style={{ backgroundImage: "url('/img/contato/acnp-sede2.jpg')" }}
+                style={{ backgroundImage: "url('img/contato/acnp-sede2.jpg')" }}
             >
                 <div className="absolute inset-0 bg-green-900/85"></div>
                 <div className="relative z-10 text-center px-4 max-w-4xl mx-auto text-white">
@@ -77,7 +77,7 @@ const Contato = () => {
                     {/* Lado Direito: Foto 1 */}
                     <div className="w-full md:w-1/2 relative h-64 md:h-auto">
                         <img
-                            src="/img/contato/acnp-venha-fazer-parte.jpg"
+                            src="img/contato/acnp-venha-fazer-parte.jpg"
                             alt="Mãos unidas colaboração"
                             className="absolute inset-0 w-full h-full object-cover"
                         />
@@ -94,7 +94,7 @@ const Contato = () => {
                     {/* Foto 2 (Decorativa) */}
                     <div className="w-full md:w-1/2 h-[400px] rounded-3xl overflow-hidden shadow-lg relative">
                         <img
-                            src="/img/contato/acnp-sede1.jpg"
+                            src="img/contato/acnp-sede1.jpg"
                             alt="Atendimento ACNP"
                             className="w-full h-full object-cover hover:scale-105 transition duration-700"
                         />

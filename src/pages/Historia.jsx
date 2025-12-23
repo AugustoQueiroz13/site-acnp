@@ -79,7 +79,7 @@ const Historia = () => {
                     <div className="w-full md:w-1/2 relative">
                         <div className="absolute top-0 left-0 w-20 h-20 bg-green-100 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
                         <img
-                            src="/img/historia/construindo-legado.jpg"
+                            src="img/historia/construindo-legado.jpg"
                             alt="Construindo Legados" className="relative z-10 rounded-tr-[5rem] rounded-bl-[3rem] rounded-tl-2xl rounded-br-2xl shadow-2xl w-full h-[400px] object-cover"
                         />
                     </div>
@@ -137,7 +137,7 @@ const Historia = () => {
                         <div className="w-full md:w-5/12 text-right pr-12 md:pr-12 md:order-1 order-2">
                             <div className="bg-white p-5 rounded-2xl shadow-md border-r-4 border-green-500">
                                 <img
-                                    src="/img/historia/expansao.jpg"
+                                    src="img/historia/expansao.jpg"
                                     alt="Expansão ACNP"
                                     className="w-full h-48 object-cover rounded-xl mb-4"
                                 />
@@ -205,7 +205,7 @@ const Historia = () => {
                         <div className="w-full md:w-5/12 text-right pr-12 md:pr-12 md:order-1 order-2">
                             <div className="bg-gradient-to-br from-green-600 to-green-800 p-5 rounded-2xl shadow-lg text-white">
                                 <img
-                                    src="/img/historia/orgulho-anos.jpg"
+                                    src="img/historia/orgulho-anos.jpg"
                                     alt="Orgulho Recente ACNP"
                                     className="w-full h-48 object-cover rounded-xl mb-4 border-2 border-green-400/50"
                                 />

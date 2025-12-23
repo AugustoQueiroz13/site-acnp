@@ -16,63 +16,63 @@ const Cursos = () => {
       titulo: "Robótica Educacional",
       categoria: "Tecnologia",
       descricao: "Estimula o raciocínio lógico, a criatividade e a resolução de problemas através da construção e programação de robôs. Um passo para o futuro.",
-      imagem: "/img/cursos/robotica.jpg",
+      imagem: "img/cursos/robotica.jpg",
     },
     {
       id: 2,
       titulo: "Curso de Corte e Costura",
       categoria: "Projeto Costurando Vidas",
       descricao: "Capacitação profissional e geração de renda através da arte da costura, transformando tecidos em oportunidades.",
-      imagem: "/img/cursos/corte-costura.jpg"
+      imagem: "img/cursos/corte-costura.jpg"
     },
     {
       id: 3,
       titulo: "Projeto EncantoGuapi",
       categoria: "Coral da Maior Idade",
       descricao: "Promovendo a socialização e a alegria através da música para a melhor idade. Um encontro de vozes e histórias de vida.",
-      imagem: "/img/cursos/encanto-guapi.jpg"
+      imagem: "img/cursos/encanto-guapi.jpg"
     },
     {
       id: 4,
       titulo: "Aula de Canto",
       categoria: "Música",
       descricao: "Descubra e aperfeiçoe sua voz. Trabalhamos técnica vocal, respiração e repertório em um ambiente acolhedor e inspirador.",
-      imagem: "/img/cursos/canto.jpg"
+      imagem: "img/cursos/canto.jpg"
     },
     {
       id: 5,
       titulo: "Aula de Teclado",
       categoria: "Música",
       descricao: "Desenvolva a musicalidade, coordenação motora e sensibilidade artística através do aprendizado prático do instrumento.",
-      imagem: "/img/cursos/teclado.jpg"
+      imagem: "img/cursos/teclado.jpg"
     },
     {
       id: 6,
       titulo: "Aula de Balé",
       categoria: "Dança",
       descricao: "Clássico e encantador, o balé trabalha disciplina, postura e leveza, promovendo a expressão corporal desde a infância.",
-      imagem: "/img/cursos/bale.jpg"
+      imagem: "img/cursos/bale.jpg"
     },
     {
       id: 7,
       titulo: "Curso de Amigurumi",
       categoria: "Artesanato",
       descricao: "Aprenda a técnica japonesa de criar pequenos bonecos feitos de crochê ou tricô. Uma atividade relaxante e criativa.",
-      imagem: "/img/cursos/amigurumi.jpg"
+      imagem: "img/cursos/amigurumi.jpg"
     },
     {
       id: 8,
       titulo: "Yoga para Mães Atípicas",
       categoria: "Projeto Teama",
       descricao: "Um espaço de acolhimento e cuidado especial, focado no bem-estar físico e emocional de mães atípicas através da prática do Yoga.",
-      imagem: "/img/cursos/yoga-maes-atipicas.jpg"
+      imagem: "img/cursos/yoga-maes-atipicas.jpg"
     },
     {
       id: 9,
       titulo: "Capoeira – Contramestre Café",
       categoria: "Esporte e Cultura",
       descricao: "Uma mistura de arte marcial, esporte, cultura popular, dança e música. Fortalece o corpo e a mente honrando as tradições.",
-      imagem: "/img/cursos/capoeira.jpg"
+      imagem: "img/cursos/capoeira.jpg"
     },
   ];
 
@@ -83,42 +83,42 @@ const Cursos = () => {
       titulo: "Dança do Ventre",
       categoria: "Dança",
       descricao: "É uma dança primitiva praticada originalmente em diversas regiões do Oriente Médio e da Ásia Meridional. É composta por uma série de movimentos vibrantes, impactantes, ondulações e rotações que envolvem o corpo como um todo.",
-      imagem: "/img/cursos/danca-ventre.jpg"
+      imagem: "img/cursos/danca-ventre.jpg"
     },
     {
       id: 11,
       titulo: "Dança de Salão",
       categoria: "Dança",
       descricao: "A dança de salão é uma expressão generalista que refere-se a diversos tipos de danças em casal, que são executadas em salões seguindo técnica e arte. Considerada uma forma de entretenimento, integração social e atividade física.",
-      imagem: "/img/cursos/danca-salao.jpg"
+      imagem: "img/cursos/danca-salao.jpg"
     },
     {
       id: 12,
       titulo: "Yoga",
       categoria: "Bem-estar",
       descricao: "É um conceito e uma filosofia, que trabalha o corpo e a mente, mediante disciplinas tradicionais de quem a pratica. Yoga é relacionada ao budismo e ao hinduísmo, com práticas como exercícios e meditação.",
-      imagem: "/img/cursos/yoga.jpg"
+      imagem: "img/cursos/yoga.jpg"
     },
     {
       id: 13,
       titulo: "Pintura em Tecido",
       categoria: "Artes",
       descricao: "Técnicas de pintura aplicadas ao tecido, permitindo a personalização de peças e o desenvolvimento da expressão artística.",
-      imagem: "/img/cursos/pintura-tecido.jpg"
+      imagem: "img/cursos/pintura-tecido.jpg"
     },
     {
       id: 14,
       titulo: "Crochê",
       categoria: "Artesanato",
       descricao: "Processo de criação de tecidos usando a agulha de crochê e algum fio contínuo. Mas também pode se usar arame, barbante ou outro material inovador.",
-      imagem: "/img/cursos/croche.jpg"
+      imagem: "img/cursos/croche.jpg"
     },
     {
       id: 15,
       titulo: "Oficina de Programação Code Club",
       categoria: "Tecnologia",
       descricao: "Parte de uma rede global, ensinamos crianças e jovens a programar computadores, criar jogos e animações de forma lúdica e colaborativa.",
-      imagem: "/img/cursos/code-club.jpg",
+      imagem: "img/cursos/code-club.jpg",
     },
   ];
 
@@ -126,23 +126,23 @@ const Cursos = () => {
   const cursosParceria = [
     {
       titulo: "Atendente de Farmácia",
-      imagem: "/img/cursos/atendente-farmacia.jpg"
+      imagem: "img/cursos/atendente-farmacia.jpg"
     },
     {
       titulo: "Cabeleireiro",
-      imagem: "/img/cursos/cabeleireiro.jpg"
+      imagem: "img/cursos/cabeleireiro.jpg"
     },
     {
       titulo: "Eletricista",
-      imagem: "/img/cursos/eletricista.jpg"
+      imagem: "img/cursos/eletricista.jpg"
     },
     {
       titulo: "Manicure",
-      imagem: "/img/cursos/manicure.jpg"
+      imagem: "img/cursos/manicure.jpg"
     },
     {
       titulo: "Secretariado",
-      imagem: "/img/cursos/secretariado.jpg"
+      imagem: "img/cursos/secretariado.jpg"
     },
   ];
 
@@ -152,7 +152,7 @@ const Cursos = () => {
       {/* --- 1. HERO SECTION --- */}
       <section
         className="relative h-[450px] flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/img/cursos/cursos-acnp.jpg')" }}
+        style={{ backgroundImage: "url('img/cursos/cursos-acnp.jpg')" }}
       >
         <div className="absolute inset-0 bg-green-900/80"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto text-white">

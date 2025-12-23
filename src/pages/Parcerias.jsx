@@ -11,28 +11,28 @@ const Parcerias = () => {
 
     // Placeholder de imagens para cada projeto
     const imgsEmpreenda = [
-        "/img/parcerias/pem1.jpg",
-        "/img/parcerias/pem2.jpg",
-        "/img/parcerias/pem3.jpg",
-        "/img/parcerias/pem4.jpg"
+        "img/parcerias/pem1.jpg",
+        "img/parcerias/pem2.jpg",
+        "img/parcerias/pem3.jpg",
+        "img/parcerias/pem4.jpg"
     ];
     const imgsTeama = [
-        "/img/parcerias/teama1.jpg",
-        "/img/parcerias/teama2.png",
-        "/img/parcerias/teama3.png",
-        "/img/parcerias/teama4.png"
+        "img/parcerias/teama1.jpg",
+        "img/parcerias/teama2.png",
+        "img/parcerias/teama3.png",
+        "img/parcerias/teama4.png"
     ];
     const imgsTverde = [
-        "/img/parcerias/tverde1.jpg",
-        "/img/parcerias/tverde2.jpg",
-        "/img/parcerias/tverde3.jpg",
-        "/img/parcerias/tverde4.jpg"
+        "img/parcerias/tverde1.jpg",
+        "img/parcerias/tverde2.jpg",
+        "img/parcerias/tverde3.jpg",
+        "img/parcerias/tverde4.jpg"
     ];
     const imgsAgencia = [
-        "/img/parcerias/agenciadobem1.jpg",
-        "/img/parcerias/agenciadobem2.jpg",
-        "/img/parcerias/agenciadobem3.jpg",
-        "/img/parcerias/agenciadobem4.jpg"
+        "img/parcerias/agenciadobem1.jpg",
+        "img/parcerias/agenciadobem2.jpg",
+        "img/parcerias/agenciadobem3.jpg",
+        "img/parcerias/agenciadobem4.jpg"
     ];
 
     return (
@@ -41,7 +41,7 @@ const Parcerias = () => {
             {/* --- 1. HERO SECTION --- */}
             <section
                 className="relative h-[450px] flex items-center justify-center bg-cover bg-center"
-                style={{ backgroundImage: "url('/img/parcerias/parcerias.jpg')" }}
+                style={{ backgroundImage: "url('img/parcerias/parcerias.jpg')" }}
             >
                 <div className="absolute inset-0 bg-green-900/85"></div>
                 <div className="relative z-10 text-center px-4 max-w-4xl mx-auto text-white">

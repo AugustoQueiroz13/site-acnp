@@ -32,7 +32,7 @@ const Navbar = () => {
                     <div className="flex items-center shrink-0">
                         <Link to="/">
                             <img
-                                src="/img/logo.png"
+                                src="img/logo.png"
                                 alt="Logo ACNP"
                                 className="h-20 w-auto object-contain py-1"
                             />

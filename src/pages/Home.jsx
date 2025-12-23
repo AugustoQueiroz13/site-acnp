@@ -16,7 +16,7 @@ const Home = () => {
             {/* Aumentei a altura para min-h-[900px] para caber tudo sem sobrepor */}
             <section
                 className="relative min-h-[900px] flex items-center justify-center bg-cover bg-fixed bg-center pt-20 pb-32"
-                style={{ backgroundImage: "url('/img/home/foto-home-incio.jpg')" }}
+                style={{ backgroundImage: "url('img/home/foto-home-incio.jpg')" }}
             >
                 {/* Gradiente Verde Moderno sobre a foto */}
                 <div className="absolute inset-0 bg-gradient-to-br from-green-900/90 via-green-800/70 to-transparent"></div>
@@ -26,7 +26,7 @@ const Home = () => {
                     {/* --- LOGO GRANDE COM FUNDO BRANCO --- */}
                     <div className="inline-block bg-white p-6 rounded-[2.5rem] mb-10 shadow-2xl">
                         <img
-                            src="/img/logo.png"
+                            src="img/logo.png"
                             alt="Logo ACNP Destaque"
                             className="h-28 md:h-44 mx-auto object-contain"
                         />
@@ -116,7 +116,7 @@ const Home = () => {
                             <div className="absolute -top-4 -left-4 w-24 h-24 bg-green-100 rounded-full z-0"></div>
                             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-green-50 rounded-full z-0"></div>
                             <img
-                                src="/img/home/nossa-jornada-cultural.jpg"
+                                src="img/home/nossa-jornada-cultural.jpg"
                                 alt="Roda de conversa cultural"
                                 className="relative z-10 rounded-[2rem] rounded-tr-[5rem] shadow-2xl w-full object-cover h-[450px]"
                             />
@@ -168,7 +168,7 @@ const Home = () => {
                             <div className="relative">
                                 <div className="absolute inset-0 border-2 border-green-500 rounded-[3rem] transform translate-x-4 translate-y-4"></div>
                                 <img
-                                    src="/img/home/nosso-foco-e-voce.jpg"
+                                    src="img/home/nosso-foco-e-voce.jpg"
                                     alt="Comunidade unida"
                                     className="relative bg-white p-2 rounded-[3rem] shadow-2xl w-full object-cover h-[550px]"
                                 />
@@ -189,7 +189,7 @@ const Home = () => {
                         <div className="flex flex-col md:flex-row items-center gap-12 group">
                             <div className="w-full md:w-1/2 overflow-hidden rounded-3xl shadow-lg">
                                 <img
-                                    src="/img/home/cursos-oficinas.jpg"
+                                    src="img/home/cursos-oficinas.jpg"
                                     alt="Cursos de Arte"
                                     className="w-full h-80 object-cover transform group-hover:scale-110 transition duration-700 ease-in-out"
                                 />
@@ -212,7 +212,7 @@ const Home = () => {
                         <div className="flex flex-col md:flex-row-reverse items-center gap-12 group">
                             <div className="w-full md:w-1/2 overflow-hidden rounded-3xl shadow-lg">
                                 <img
-                                    src="/img/home/projetos-sociambientais.jpg"
+                                    src="img/home/projetos-sociambientais.jpg"
                                     alt="Meio Ambiente"
                                     className="w-full h-80 object-cover transform group-hover:scale-110 transition duration-700 ease-in-out"
                                 />
@@ -252,7 +252,7 @@ const Home = () => {
                         </div>
                         <div className="w-full md:w-1/2 order-1 md:order-2">
                             <img
-                                src="/img/home/gratidao-comunidade.jpg"
+                                src="img/home/gratidao-comunidade.jpg"
                                 alt="Comunidade feliz"
                                 className="rounded-2xl shadow-lg rotate-2 hover:rotate-0 transition duration-500 w-full"
                             />
