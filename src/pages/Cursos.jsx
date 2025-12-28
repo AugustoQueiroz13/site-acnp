@@ -17,7 +17,6 @@ const Cursos = () => {
       categoria: "Tecnologia",
       descricao: "Estimula o raciocínio lógico, a criatividade e a resolução de problemas através da construção e programação de robôs. Um passo para o futuro.",
       imagem: "img/cursos/robotica.jpg",
-      // ADICIONADO: Link externo específico para este curso
       linkExterno: "https://www.roboticaacnp.com.br"
     },
     {
@@ -221,7 +220,7 @@ const Cursos = () => {
                       rel="noopener noreferrer"
                       className="mt-auto inline-flex items-center text-green-600 font-bold text-sm hover:text-green-800 transition"
                     >
-                      Acessar Site do Curso <ArrowRight size={16} className="ml-1" />
+                      Acessar Site do Curso Presencial <ArrowRight size={16} className="ml-1" />
                     </a>
                   ) : (
                     <Link to="/contato" className="mt-auto inline-flex items-center text-green-600 font-bold text-sm hover:text-green-800 transition">
