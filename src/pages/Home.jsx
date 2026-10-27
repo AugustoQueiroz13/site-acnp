@@ -35,7 +35,7 @@ const Home = () => {
                     <div className="block mb-6">
                         <div className="inline-block px-5 py-2 border border-green-300/50 rounded-full bg-green-900/40 backdrop-blur-md">
                             <span className="text-sm md:text-base font-medium tracking-wider uppercase text-green-100">
-                                37 Anos de História
+                                39 Anos de História
                             </span>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const Home = () => {
                     </h1>
 
                     <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-12 leading-relaxed font-light text-green-50">
-                        Bem-vindo à Associação Cultural Nascente Pequena. Há 37 anos canalizamos nossa paixão pela cultura, transformando vidas e o cenário sociocultural de Guapimirim.
+                        Bem-vindo à Associação Cultural Nascente Pequena. Há 39 anos canalizamos nossa paixão pela cultura, transformando vidas e o cenário sociocultural de Guapimirim.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">

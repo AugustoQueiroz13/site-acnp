@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import {
     Calendar, Award, Star, User, Heart, Leaf,
     FileText, TrendingUp, Building, HeartHandshake, Palette,
-    BookOpen, Sprout, Lightbulb, Megaphone, ShieldCheck
+    BookOpen, Sprout, Lightbulb, Megaphone, ShieldCheck, Users
 } from 'lucide-react';
 
 const Historia = () => {
@@ -14,40 +14,39 @@ const Historia = () => {
     const getIconByRole = (role) => {
         if (role.includes('Presidente') || role.includes('Vice')) return <Star size={24} className="text-yellow-400 fill-yellow-400" />;
         if (role.includes('Secretária')) return <FileText size={24} className="text-blue-300" />;
-        if (role.includes('Financeiro')) return <TrendingUp size={24} className="text-emerald-300" />;
+        if (role.includes('Financ')) return <TrendingUp size={24} className="text-emerald-300" />;
         if (role.includes('Patrimônio')) return <Building size={24} className="text-orange-300" />;
         if (role.includes('Sociais')) return <HeartHandshake size={24} className="text-rose-300" />;
         if (role.includes('Cultura')) return <Palette size={24} className="text-purple-300" />;
         if (role.includes('Educação')) return <BookOpen size={24} className="text-indigo-300" />;
         if (role.includes('Socioambiental')) return <Sprout size={24} className="text-green-300" />;
-        if (role.includes('Criativa')) return <Lightbulb size={24} className="text-yellow-200" />;
+        if (role.includes('Economia')) return <Lightbulb size={24} className="text-yellow-200" />;
+        if (role.includes('Inclusão')) return <Users size={24} className="text-teal-300" />;
         if (role.includes('Comunicação')) return <Megaphone size={24} className="text-cyan-300" />;
         if (role.includes('Conselho')) return <ShieldCheck size={24} className="text-gray-300" />;
         return <User size={24} className="text-green-200" />;
     };
 
     const diretoria = [
-        { cargo: "Presidente", nome: "Marinete Seixas Chaves Cheppi" },
-        { cargo: "Vice-presidente", nome: "Ivan de Araújo Coutinho" },
-        { cargo: "1ª Secretária", nome: "Marcia Teixeira de Mônaco" },
-        { cargo: "2ª Secretária", nome: "Priscilla Teixeira de Mônaco" },
-        { cargo: "Diretor Financeiro", nome: "Paulo Sergio da Costa Martins" },
-        { cargo: "Coord. de Patrimônio", nome: "Cheila Ferreira da Silva" },
-        { cargo: "Coord. de Projetos Sociais", nome: "Maria Regina Gonçalves Martins" },
-        { cargo: "Coord. Cultura e Promoção", nome: "Andréa Antunes Nascimento" },
-        { cargo: "Coord. de Educação", nome: "Gécica Berude Chaves" },
-        { cargo: "Coord. Socioambiental", nome: "Aurea da Costa Mantoan" },
-        { cargo: "Coord. Economia Criativa", nome: "Rosana Dias da Silva Castro" },
-        { cargo: "Coord. Comunicação", nome: "Juliana Mello Fernandes" },
+        { cargo: "Presidente", nome: "Paulo Sérgio da Costa Martins" },
+        { cargo: "Vice-presidente", nome: "Priscilla Teixeira de Mônaco" },
+        { cargo: "1ª Secretária", nome: "Maria Regina Gonçalves Martins" },
+        { cargo: "2ª Secretária", nome: "Adriana Soares Areal" },
+        { cargo: "Diretora Financeira", nome: "Marinete Seixas Chaves Cheppi" },
+        { cargo: "Coord. Cultura e Promoção Social", nome: "Andréa Antunes Nascimento" },
+        { cargo: "Coord. de Educação", nome: "Vânia Cristina Cardoso Adriano" },
+        { cargo: "Coord. Socioambiental", nome: "Áurea da Costa Mantoan" },
+        { cargo: "Coord. Comunicação", nome: "Carlos Augusto Muniz de Queiroz" },
+        { cargo: "Coord. Economia Solidária", nome: "Gécica Berude Chaves" },
+        { cargo: "Coord. de Projetos Sociais", nome: "Laura Maria de Abreu Gama Vieira" },
+        { cargo: "Coord. de Inclusão", nome: "Juliana Mello Fernandes" },
+        { cargo: "Coord. de Patrimônio", nome: "Ivan de Araújo Coutinho" },
     ];
 
     const conselhoFiscal = [
-        { cargo: "Presidente do Conselho", nome: "Aline Vivas de Freitas Aragão" },
-        { cargo: "Membro efetivo", nome: "Jussara Valsivia Andrade" },
-        { cargo: "Membro efetivo", nome: "Deborah de Almeida Pessôa de Souza" },
-        { cargo: "Membro Suplente", nome: "Monique Tolardo Lopes Pereira" },
-        { cargo: "Membro Suplente", nome: "Líliam da Silva Souza" },
-        { cargo: "Membro Suplente", nome: "Bernardo Julian Souza Cheppi" },
+        { cargo: "Membro do Conselho Fiscal", nome: "Monique Tolardo Lopes Pereira" },
+        { cargo: "Membro do Conselho Fiscal", nome: "Rosana Dias da Silva Castro" },
+        { cargo: "Membro do Conselho Fiscal", nome: "Aline Vivas de Freitas Aragão" },
     ];
 
     return (
@@ -273,7 +272,7 @@ const Historia = () => {
                                     <User size={40} className="text-green-700" />
                                 </div>
                                 <h4 className="font-bold text-lg text-gray-900">Marinete Seixas Chaves Cheppi</h4>
-                                <p className="text-green-600 font-medium">Presidente da ACNP</p>
+                                <p className="text-green-600 font-medium">Associada Fundadora da ACNP</p>
                             </div>
                         </div>
 
@@ -286,7 +285,7 @@ const Historia = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-bold mb-4">Dirigentes Voluntários</h2>
-                        <p className="text-green-200">Relação dos membros eleitos para o biênio 2024-2026</p>
+                        <p className="text-green-200">Relação dos membros eleitos para o biênio 2026-2028</p>
                     </div>
 
                     {/* Diretoria Executiva */}

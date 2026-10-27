@@ -40,7 +40,7 @@ const Footer = () => {
                         </div>
 
                         <p className="text-green-100/80 text-sm leading-relaxed mb-6">
-                            Associação Cultural Nascente Pequena. Há mais de 37 anos transformando vidas e construindo legados em Guapimirim através da arte, cultura e educação.
+                            Associação Cultural Nascente Pequena. Há mais de 39 anos transformando vidas e construindo legados em Guapimirim através da arte, cultura e educação.
                         </p>
                         <div className="flex space-x-4">
                             <a href="https://facebook.com/associacaoculturalnascentepequena" target="_blank" rel="noreferrer" className="bg-green-900 p-2 rounded-full hover:bg-green-700 transition" title="Facebook"><Facebook size={18} /></a>

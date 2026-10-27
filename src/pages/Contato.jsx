@@ -52,7 +52,7 @@ const Contato = () => {
                         </div>
 
                         <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                            Há 35 anos a Associação Cultural Nascente Pequena (ACNP) é uma OSC sem fins lucrativos que visa contribuir para o fortalecimento da cidadania, através de cursos, oficinas e projetos na cidade de Guapimirim.
+                            Há 39 anos a Associação Cultural Nascente Pequena (ACNP) é uma OSC sem fins lucrativos que visa contribuir para o fortalecimento da cidadania, através de cursos, oficinas e projetos na cidade de Guapimirim.
                             <br /><br />
                             <strong>Faça parte dessa linda história, seja um colaborador!</strong>
                         </p>
