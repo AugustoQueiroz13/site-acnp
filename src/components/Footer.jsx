@@ -105,7 +105,14 @@ const Footer = () => {
 
                     <div className="flex items-center gap-1">
                         <span>Site criado por:</span>
-                        <span className="font-bold text-green-400">Augusto Queiroz</span>
+                        <a
+                            href="https://augustoqueiroz13.github.io/meu-portfolio/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-bold text-green-400 hover:text-green-300 transition"
+                        >
+                            Augusto Queiroz
+                        </a>
                     </div>
                 </div>
             </div>
