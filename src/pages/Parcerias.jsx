@@ -66,13 +66,20 @@ const Parcerias = () => {
                         </div>
                         <h3 className="text-xl font-semibold text-gray-700 mb-4">Projeto Escola de Música e Cidadania</h3>
                         <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-                            <div className="bg-slate-50 p-6 rounded-xl shadow-sm border-l-4 border-amber-500">
-                                <p className="mb-4">
-                                    Uma parceria da <strong>OSC Agência do Bem</strong> com a <strong>Petrobrás</strong>.
-                                </p>
-                                <p className="text-xl font-bold text-amber-800">
-                                    Atendendo 50 crianças e adolescentes com aulas de cidadania, teoria musical, violino e viola de corda.
-                                </p>
+                            <div className="bg-slate-50 p-6 rounded-xl shadow-sm border-l-4 border-amber-500 flex flex-col sm:flex-row items-center gap-6">
+                                <img
+                                    src="img/parcerias/agenciadobem-logo.png"
+                                    alt="Logo Agência do Bem"
+                                    className="h-28 w-auto object-contain shrink-0"
+                                />
+                                <div>
+                                    <p className="mb-4">
+                                        Uma parceria da <strong>OSC Agência do Bem</strong> com a <strong>Petrobrás</strong>.
+                                    </p>
+                                    <p className="text-xl font-bold text-amber-800">
+                                        Atendendo 50 crianças e adolescentes com aulas de cidadania, teoria musical, violino e viola de corda.
+                                    </p>
+                                </div>
                             </div>
                             <p>
                                 Transformando realidades através da música clássica e da formação cidadã.
