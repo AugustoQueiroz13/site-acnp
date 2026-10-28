@@ -55,8 +55,118 @@ const Parcerias = () => {
                 </div>
             </section>
 
-            {/* --- PARCERIA 1: EMPREENDA MULHER (Layout de Largura Total devido ao conteúdo extenso) --- */}
+            {/* --- PARCERIA 1: AGÊNCIA DO BEM (Layout Dividido: Texto Esquerda / Fotos Direita) --- */}
             <section className="py-20 px-4 bg-white">
+                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
+                    {/* Texto */}
+                    <div className="w-full lg:w-1/2 order-2 lg:order-1">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-3 bg-amber-100 text-amber-600 rounded-full"><Music size={28} /></div>
+                            <h2 className="text-3xl font-bold text-gray-900">Agência do Bem</h2>
+                        </div>
+                        <h3 className="text-xl font-semibold text-gray-700 mb-4">Projeto Escola de Música e Cidadania</h3>
+                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+                            <div className="bg-slate-50 p-6 rounded-xl shadow-sm border-l-4 border-amber-500">
+                                <p className="mb-4">
+                                    Uma parceria da <strong>OSC Agência do Bem</strong> com a <strong>Petrobrás</strong>.
+                                </p>
+                                <p className="text-xl font-bold text-amber-800">
+                                    Atendendo 50 crianças e adolescentes com aulas de cidadania, teoria musical, violino e viola de corda.
+                                </p>
+                            </div>
+                            <p>
+                                Transformando realidades através da música clássica e da formação cidadã.
+                            </p>
+                        </div>
+                    </div>
+                    {/* Grid de 4 Fotos (2x2) */}
+                    <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 gap-4">
+                        {imgsAgencia.map((img, idx) => (
+                            <div key={idx} className="h-48 sm:h-64 overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                                <img src={img} alt={`Agência do Bem ${idx + 1}`} className="w-full h-full object-cover" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* --- DIVISOR --- */}
+            <div className="w-full h-px bg-gray-200"></div>
+
+            {/* --- PARCERIA 2: TEAMA (Layout Invertido: Fotos Esquerda / Texto Direita) --- */}
+            <section className="py-20 px-4 bg-slate-50">
+                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
+                    {/* Grid de 4 Fotos (2x2) */}
+                    <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4">
+                        {imgsTeama.map((img, idx) => (
+                            <div key={idx} className="h-48 sm:h-64 overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                                <img src={img} alt={`TEAMA ${idx + 1}`} className="w-full h-full object-cover" />
+                            </div>
+                        ))}
+                    </div>
+                    {/* Texto */}
+                    <div className="w-full lg:w-1/2">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-3 bg-blue-100 text-blue-600 rounded-full"><Users size={28} /></div>
+                            <h2 className="text-3xl font-bold text-gray-900">TEAMA</h2>
+                        </div>
+                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+                            <p>
+                                Em 2018 nasceu a TEAma. Uma iniciativa coletiva por um grupo de pais da nossa cidade de Guapimirim-RJ, acolhidos e incentivados pela Associação TEIAA (Teresópolis) através da Fundadora Valéria Viana.
+                            </p>
+                            <p>
+                                A I Caminhada de Conscientização do Autismo foi organizada em 2017 pela primeira formação do grupo TEIAA GUAPI.
+                            </p>
+                            <div className="bg-blue-100/50 p-6 rounded-xl border-l-4 border-blue-500">
+                                <p className="font-medium text-blue-900">
+                                    A TEAma é um MOVIMENTO SOCIAL PRÓ-INCLUSÃO, acolhido em espaço para reuniões e ações pela ACNP. Essa parceria nos agrega numa perspectiva fundamental: incentivar o convívio social das famílias que cuidam de pessoas com deficiência, possibilitando conhecimento, aprendizagem e acesso a ações culturais.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* --- DIVISOR --- */}
+            <div className="w-full h-px bg-gray-200"></div>
+
+            {/* --- PARCERIA 3: TVERDE (Layout Dividido: Texto Esquerda / Fotos Direita) --- */}
+            <section className="py-20 px-4 bg-white">
+                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
+                    {/* Texto */}
+                    <div className="w-full lg:w-1/2 order-2 lg:order-1">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-3 bg-green-100 text-green-700 rounded-full"><Video size={28} /></div>
+                            <h2 className="text-3xl font-bold text-gray-900">TVERDE - Associação Cultural Onda Verde</h2>
+                        </div>
+                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+                            <p>
+                                Instituição sem fins lucrativos com aproximadamente 25 anos de atividades. Engajada no crescimento social, político, educacional e ambiental, atuando no processo de inclusão de crianças, adolescentes e jovens através da área de Audiovisual.
+                            </p>
+                            <p>
+                                Preparou diversos profissionais para o mercado de trabalho em emissoras como TV Record, Rede Globo, Magé Online, entre outras. O trabalho vai além de formar profissionais; busca torná-los cidadãos capazes de transformar o meio em que vivem.
+                            </p>
+                            <p className="font-medium text-green-800">
+                                Trabalha hoje com inclusão social de pessoas com deficiência e Adolescentes em Medida Socioeducativa. Possui um acervo de valor incalculável com o objetivo de criar o museu da memória audiovisual de Guapimirim.
+                            </p>
+                        </div>
+                    </div>
+                    {/* Grid de 4 Fotos (2x2) */}
+                    <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 gap-4">
+                        {imgsTverde.map((img, idx) => (
+                            <div key={idx} className="h-48 sm:h-64 overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                                <img src={img} alt={`TVERDE ${idx + 1}`} className="w-full h-full object-cover" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* --- DIVISOR --- */}
+            <div className="w-full h-px bg-gray-200"></div>
+
+            {/* --- PARCERIA 4: EMPREENDA MULHER (Layout de Largura Total devido ao conteúdo extenso) --- */}
+            <section className="py-20 px-4 bg-slate-50">
                 <div className="max-w-7xl mx-auto">
                     <div className="flex items-center gap-3 mb-8">
                         <div className="p-3 bg-pink-100 text-pink-600 rounded-full"><Heart size={28} /></div>
@@ -107,116 +217,6 @@ const Parcerias = () => {
                         {imgsEmpreenda.map((img, idx) => (
                             <div key={idx} className="h-48 overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105">
                                 <img src={img} alt={`Empreenda Mulher ${idx + 1}`} className="w-full h-full object-cover" />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* --- DIVISOR --- */}
-            <div className="w-full h-px bg-gray-200"></div>
-
-            {/* --- PARCERIA 2: TEAMA (Layout Dividido: Texto Esquerda / Fotos Direita) --- */}
-            <section className="py-20 px-4 bg-slate-50">
-                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
-                    {/* Texto */}
-                    <div className="w-full lg:w-1/2 order-2 lg:order-1">
-                        <div className="flex items-center gap-3 mb-6">
-                            <div className="p-3 bg-blue-100 text-blue-600 rounded-full"><Users size={28} /></div>
-                            <h2 className="text-3xl font-bold text-gray-900">TEAMA</h2>
-                        </div>
-                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-                            <p>
-                                Em 2018 nasceu a TEAma. Uma iniciativa coletiva por um grupo de pais da nossa cidade de Guapimirim-RJ, acolhidos e incentivados pela Associação TEIAA (Teresópolis) através da Fundadora Valéria Viana.
-                            </p>
-                            <p>
-                                A I Caminhada de Conscientização do Autismo foi organizada em 2017 pela primeira formação do grupo TEIAA GUAPI.
-                            </p>
-                            <div className="bg-blue-100/50 p-6 rounded-xl border-l-4 border-blue-500">
-                                <p className="font-medium text-blue-900">
-                                    A TEAma é um MOVIMENTO SOCIAL PRÓ-INCLUSÃO, acolhido em espaço para reuniões e ações pela ACNP. Essa parceria nos agrega numa perspectiva fundamental: incentivar o convívio social das famílias que cuidam de pessoas com deficiência, possibilitando conhecimento, aprendizagem e acesso a ações culturais.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Grid de 4 Fotos (2x2) */}
-                    <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 gap-4">
-                        {imgsTeama.map((img, idx) => (
-                            <div key={idx} className={`h-48 sm:h-64 overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 ${idx % 3 === 0 ? 'md:row-span-1' : ''}`}>
-                                <img src={img} alt={`TEAMA ${idx + 1}`} className="w-full h-full object-cover" />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* --- DIVISOR --- */}
-            <div className="w-full h-px bg-gray-200"></div>
-
-            {/* --- PARCERIA 3: TVERDE (Layout Invertido: Fotos Esquerda / Texto Direita) --- */}
-            <section className="py-20 px-4 bg-white">
-                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
-                    {/* Grid de 4 Fotos (2x2) */}
-                    <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4">
-                        {imgsTverde.map((img, idx) => (
-                            <div key={idx} className="h-48 sm:h-64 overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                                <img src={img} alt={`TVERDE ${idx + 1}`} className="w-full h-full object-cover" />
-                            </div>
-                        ))}
-                    </div>
-                    {/* Texto */}
-                    <div className="w-full lg:w-1/2">
-                        <div className="flex items-center gap-3 mb-6">
-                            <div className="p-3 bg-green-100 text-green-700 rounded-full"><Video size={28} /></div>
-                            <h2 className="text-3xl font-bold text-gray-900">TVERDE - Associação Cultural Onda Verde</h2>
-                        </div>
-                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-                            <p>
-                                Instituição sem fins lucrativos com aproximadamente 25 anos de atividades. Engajada no crescimento social, político, educacional e ambiental, atuando no processo de inclusão de crianças, adolescentes e jovens através da área de Audiovisual.
-                            </p>
-                            <p>
-                                Preparou diversos profissionais para o mercado de trabalho em emissoras como TV Record, Rede Globo, Magé Online, entre outras. O trabalho vai além de formar profissionais; busca torná-los cidadãos capazes de transformar o meio em que vivem.
-                            </p>
-                            <p className="font-medium text-green-800">
-                                Trabalha hoje com inclusão social de pessoas com deficiência e Adolescentes em Medida Socioeducativa. Possui um acervo de valor incalculável com o objetivo de criar o museu da memória audiovisual de Guapimirim.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* --- DIVISOR --- */}
-            <div className="w-full h-px bg-gray-200"></div>
-
-            {/* --- PARCERIA 4: AGÊNCIA DO BEM (Layout Dividido: Texto Esquerda / Fotos Direita) --- */}
-            <section className="py-20 px-4 bg-slate-50">
-                <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
-                    {/* Texto */}
-                    <div className="w-full lg:w-1/2 order-2 lg:order-1">
-                        <div className="flex items-center gap-3 mb-6">
-                            <div className="p-3 bg-amber-100 text-amber-600 rounded-full"><Music size={28} /></div>
-                            <h2 className="text-3xl font-bold text-gray-900">Agência do Bem</h2>
-                        </div>
-                        <h3 className="text-xl font-semibold text-gray-700 mb-4">Projeto Escola de Música e Cidadania</h3>
-                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-                            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-amber-500">
-                                <p className="mb-4">
-                                    Uma parceria da <strong>OSC Agência do Bem</strong> com a <strong>Petrobrás</strong>.
-                                </p>
-                                <p className="text-xl font-bold text-amber-800">
-                                    Atendendo 50 crianças e adolescentes com aulas de cidadania, teoria musical, violino e viola de corda.
-                                </p>
-                            </div>
-                            <p>
-                                Transformando realidades através da música clássica e da formação cidadã.
-                            </p>
-                        </div>
-                    </div>
-                    {/* Grid de 4 Fotos (2x2) */}
-                    <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 gap-4">
-                        {imgsAgencia.map((img, idx) => (
-                            <div key={idx} className="h-48 sm:h-64 overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                                <img src={img} alt={`Agência do Bem ${idx + 1}`} className="w-full h-full object-cover" />
                             </div>
                         ))}
                     </div>
